@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dvina Multispeciality Hospital</title>
+
+<style>
+  :root{
+    --teal:#1f6f78;
+    --saffron:#f28c28;
+    --dark:#222;
+    --soft:#f6fcfd;
+  }
+
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--soft);
+    color:#333;
+    line-height:1.6;
+  }
+
+  .container{
+    max-width:1100px;
+    margin:auto;
+    padding:24px;
+  }
+
+  /* HEADER */
+  header{
+    background:#fff;
+    text-align:center;
+    padding:32px 16px 24px;
+    border-bottom:1px solid #e6eef0;
+  }
+
+  header img{
+    max-width:340px;
+    width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+  }
+
+  .tagline-placeholder{
+    margin-top:14px;
+    font-size:18px;
+    color:#555;
+    font-style:italic;
+  }
+
+  /* HEADINGS */
+  h2{
+    color:var(--teal);
+    margin-bottom:12px;
+  }
+
+  .why-title{
+    font-size:28px;
+    margin-bottom:12px;
+  }
+
+  .why-title .why,
+  .why-title .q{
+    color:var(--dark);
+  }
+
+  .dvina span{
+    color:var(--teal);
+    font-weight:700;
+  }
+
+  .dvina .v{
+    color:var(--saffron);
+  }
+
+  /* SECTIONS */
+  section{
+    margin-top:48px;
+  }
+
+  .about p{
+    max-width:900px;
+    margin:auto;
+  }
+
+  .signature{
+    margin-top:16px;
+    font-weight:bold;
+  }
+
+  /* SPECIALITIES */
+  .specialities{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:16px;
+    margin-top:24px;
+  }
+
+  .card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    font-weight:500;
+  }
+
+  /* CONTACT */
+  .contact h2{
+    color:#000;
+  }
+
+  .contact p{
+    margin:6px 0;
+  }
+
+  iframe{
+    width:100%;
+    height:300px;
+    border:0;
+    margin-top:20px;
+    border-radius:10px;
+  }
+
+  footer{
+    margin-top:48px;
+    padding:24px;
+    background:#fff;
+    text-align:center;
+    font-size:14px;
+    color:#555;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="dvina-board.JPG" alt="Dvina Multispeciality Hospital">
+  <div class="tagline-placeholder">
+    <!-- Tagline will be finalized later -->
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ABOUT -->
+  <section class="about">
+    <p>
+      At <span class="dvina">
+        <span>D</span><span class="v">V</span><span>I</span><span>N</span><span>A</span>
+      </span>, we believe the best healing happens in an environment of absolute trust.
+      We’ve brought together the region’s leading doctors to provide care that is guided by safety
+      and delivered with a human touch.
+    </p>
+
+    <p style="margin-top:12px;">
+      Experience a new standard of healthcare where – Patient safety is our North Star and clinical excellence is our Signature.
+    </p>
+
+    <p class="signature">
+      Patient safety is our North Star and Clinical excellence is our Signature
+    </p>
+  </section>
+
+  <!-- WHY DVINA -->
+  <section>
+    <div class="why-title">
+      <span class="why">Why</span>
+      <span class="dvina">
+        <span>D</span><span class="v">V</span><span>I</span><span>N</span><span>A</span>
+      </span>
+      Multispeciality Hospital
+      <span class="q">?</span>
+    </div>
+
+    <p>
+      We combine the authority of a premier medical institution with the warmth of a dedicated care team,
+      making us the region’s most trusted destination for transparent and responsible healing.
+    </p>
+  </section>
+
+  <!-- SPECIALITIES -->
+  <section>
+    <h2>Our Specialities</h2>
+    <div class="specialities">
+      <div class="card">Cardiology</div>
+      <div class="card">Neurology</div>
+      <div class="card">Orthopaedics</div>
+      <div class="card">Gynaecology</div>
+      <div class="card">Paediatrics</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 9076124111 / 9076128111</p>
+    <p>✉️ info@dvinahospital.com</p>
+    <p>✉️ admin@dvinahospital.com</p>
+
+    <iframe
+      src="https://maps.google.com/maps?q=Dvina%20Hospital%20Dombivli&t=&z=15&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+  </section>
+
+</div>
+
+<footer>
+  © Dvina Multispeciality Hospital. All rights reserved.
+</footer>
+
+</body>
+</html>
