@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dvina Multispeciality Hospital</title>
+
+  <style>
+    :root {
+      --teal: #1f6f78;
+      --dark-teal: #174f55;
+      --orange: #f28c28;
+      --light-bg: #f5f9f9;
+      --text-dark: #203233;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    body {
+      background: var(--light-bg);
+      color: var(--text-dark);
+      text-align: center;
+    }
+
+    header {
+      padding: 28px 16px 20px;
+      background: #ffffff;
+      border-bottom: 3px solid var(--teal);
+    }
+
+    .logo {
+      max-width: 220px;
+      width: 100%;
+      margin-bottom: 14px;
+    }
+
+    .hospital-name {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: var(--dark-teal);
+    }
+
+    .hospital-name span {
+      color: var(--orange);
+    }
+
+    .tagline {
+      margin-top: 6px;
+      font-size: 16px;
+      color: var(--teal);
+      font-weight: 500;
+    }
+
+    section {
+      padding: 40px 16px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: var(--teal);
+      margin-bottom: 26px;
+      font-weight: 700;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 18px 12px;
+      font-size: 16px;
+      font-weight: 600;
+      border-left: 6px solid var(--orange);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+    }
+
+    .find-us {
+      background: #ffffff;
+      border-top: 3px solid var(--teal);
+    }
+
+    .address {
+      font-size: 16px;
+      margin-bottom: 14px;
+    }
+
+    .phone {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--dark-teal);
+      margin-bottom: 18px;
+    }
+
+    .map-btn {
+      display: inline-block;
+      padding: 14px 22px;
+      background: var(--teal);
+      color: #ffffff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .map-btn:hover {
+      background: var(--dark-teal);
+    }
+
+    footer {
+      padding: 18px;
+      font-size: 13px;
+      color: #607d80;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="dvina-board.JPG" alt="Dvina Hospital Logo" class="logo" />
+
+    <div class="hospital-name">
+      D<span>V</span>INA MULTISPECIALITY HOSPITAL
+    </div>
+
+    <div class="tagline">
+      Healthcare you can trust
+    </div>
+  </header>
+
+  <section>
+    <h2>Specialty Services</h2>
+
+    <div class="services">
+      <div class="card">Cardiology</div>
+      <div class="card">Neurology</div>
+      <div class="card">Orthopaedics</div>
+      <div class="card">Gynaecology</div>
+      <div class="card">Pediatrics</div>
+    </div>
+  </section>
+
+  <section class="find-us">
+    <h2>Find Us</h2>
+
+    <div class="address">
+      Sagaon, Dombivli East
+    </div>
+
+    <div class="phone">
+      📞 9076124111
+    </div>
+
+    <a
+      class="map-btn"
+      href="https://maps.app.goo.gl/3znRtyNqe74yT4Dq8"
+      target="_blank"
+    >
+      📍 Open in Google Maps
+    </a>
+  </section>
+
+  <footer>
+    © Dvina Multispeciality Hospital
+  </footer>
+
+</body>
+</html>
